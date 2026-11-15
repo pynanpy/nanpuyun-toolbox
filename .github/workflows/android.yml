@@ -26,8 +26,6 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-      - name: 安装 Android SDK
-        uses: android-actions/setup-android@v3
       - name: 生成并同步 Capacitor Android 工程
         run: |
           if [ ! -d android ]; then npx cap add android; fi

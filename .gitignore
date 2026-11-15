@@ -1,0 +1,20 @@
+# 依赖与构建产物
+node_modules/
+dist/
+*.log
+
+# Capacitor / Android 构建产物（原生工程保留源码，构建产物不提交）
+android/
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/*.iml
+*.hprof
+
+# 编辑器与系统文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

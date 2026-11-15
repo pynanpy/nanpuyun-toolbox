@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f6f7f9; color: #1f2937; }
+header { background: #111827; color: #fff; padding: 20px 16px; }
+header h1 { margin: 0 0 4px; font-size: 22px; }
+header p { margin: 0; opacity: .75; font-size: 13px; }
+nav { display: flex; gap: 8px; padding: 12px 16px; background: #fff; border-bottom: 1px solid #e5e7eb; position: sticky; top: 0; z-index: 10; flex-wrap: wrap; }
+nav button { border: 1px solid #d1d5db; background: #fff; padding: 8px 16px; border-radius: 999px; cursor: pointer; font-size: 14px; }
+nav button.active { background: #111827; color: #fff; border-color: #111827; }
+main { max-width: 860px; margin: 0 auto; padding: 16px; }
+main h2 { margin-top: 0; }
+main h3 { margin: 24px 0 8px; }
+.hint { color: #6b7280; font-size: 14px; }
+.info { white-space: pre-wrap; background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px; font-size: 13px; min-height: 20px; }
+.status { font-size: 14px; min-height: 20px; }
+.file-btn { display: inline-block; background: #2563eb; color: #fff; padding: 9px 16px; border-radius: 8px; cursor: pointer; margin: 6px 6px 6px 0; font-size: 14px; }
+button { border: 1px solid #d1d5db; background: #fff; padding: 9px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; margin: 6px 6px 6px 0; }
+button.primary { background: #111827; color: #fff; border-color: #111827; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 12px 0; }
+.grid label, label { display: block; font-size: 14px; }
+input, select, textarea { width: 100%; margin-top: 4px; padding: 8px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 14px; }
+input[type="range"] { padding: 0; }
+fieldset { border: 1px solid #e5e7eb; border-radius: 8px; margin: 12px 0; }
+.preview { margin: 12px 0; }
+.preview canvas { max-width: 100%; height: auto; background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; }
+.actions { margin: 12px 0; }
+footer { text-align: center; color: #9ca3af; font-size: 12px; padding: 24px 16px 40px; }
